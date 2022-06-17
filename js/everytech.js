@@ -140,17 +140,17 @@ function openBlog(id) {
         });
 }
 
-// var btt = $('#back-to-top');
+var buttonTop = $('#back-to-top');
 
-// $(window).scroll(function() {
-//     if ($(window).scrollTop() > 300) {
-//         btt.addClass('show');
-//     } else {
-//         btt.removeClass('show');
-//     }
-// });
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+        buttonTop.addClass('show');
+    } else {
+        buttonTop.removeClass('show');
+    }
+});
 
-// btt.on('click', function(e) {
-//     e.preventDefault();
-//     $('html, body').animate({scrollTop:0}, '300');
-// });
+buttonTop.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+});

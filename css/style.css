@@ -98,11 +98,11 @@ a, .btn, #form-stuff h1, #blog-container p, .blog-bg p,.footer-top h5, .footer-b
   
 #back-to-top:hover {
     cursor: pointer;
-    background-color: #009607;
+    background-color: grey;
 }
   
 #back-to-top:active {
-    background-color: #009607;
+    background-color: grey;
 }
   
 #back-to-top.show {
