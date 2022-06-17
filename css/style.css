@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Tiro+Kannada:ital@0;1&family=Zilla+Slab:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.text-nat{
+    color: #083d72;    
+}
+.bg-nat{
+    background-color: #083d72;    
+}
+.btn-nat {
+    color: #fff;
+    background-color: #083d72;
+    border-color: #083d72;
+}
+.btn-nat:hover {
+    color: #fff;
+    background-color: #083d72;
+    border-color: #083d72;
+}
+.bg-brands {
+   background-color:#f9f9f9;
+}
+.inn {
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+}
+#form-stuff{
+    background:url(../img/bg-form-stuff.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card, .card-img-top, .blog-img{
+    border-radius: 16px;  
+}
+#trending-product{   
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+} 
+.blog-bg {
+    background:url(../img/emmanuel-phaeton--fBaQFX7q8U-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+a, .btn, #form-stuff h1, #blog-container p, .blog-bg p,.footer-top h5, .footer-bottom h5, #top-hero p {
+    font-family: 'Tiro Kannada', serif;
+}
+::placeholder, #trending-product h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+#trending-product p{
+    font-family: 'Zilla Slab', serif;
+    font-style: italic;
+}
+
+#trending-product h5, #form-stuff .form-label, #Blog-post-title, #Blog-title{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+}
+.footer-top p, .footer-bottom a, #top-hero h4, #top-hero h3{
+    font-family: 'Zilla Slab', serif;
+}
+.hot{
+    font-size:clamp(14px, 1.8vw, 16px) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.cir{
+    font-size:clamp(10px, 1.8vw, 16px) ;
+}
