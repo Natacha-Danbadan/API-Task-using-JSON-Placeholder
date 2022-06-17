@@ -64,22 +64,22 @@ function updateBlogPost(id) {
         .then((data) => {
 
             console.log(data)
-            let postTitles = document.querySelectorAll('.blog-post-title') // 100 post titles [0 -99]
-            let postBodies = document.querySelectorAll('.blog-post-body')
-            console.log(postTitles)
-            postTitles.forEach((postTitle, index) => {
+            let BlogTitles = document.querySelectorAll('.blog-post-title') 
+            let BlogBodies = document.querySelectorAll('.blog-post-body')
+            console.log(BlogTitles)
+            BlogTitles.forEach((BlogTitle, index) => {
                 if (index + 1 === id) {
                     if (data.title !== "") {
-                        postTitle.innerHTML = data.title
+                        BlogTitle.innerHTML = data.title
                     }
                 }
 
             })
 
-            postBodies.forEach((postBody, index) => {
+            BlogBodies.forEach((BlogBody, index) => {
                 if (index + 1 === id) {
                     if (data.body !== "") {
-                        postBody.innerHTML = data.body
+                        BlogBody.innerHTML = data.body
                     }
                 }
 
