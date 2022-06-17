@@ -49,7 +49,7 @@ box-sizing: border-box;
 a, .btn, #form-stuff h1, #blog-container p, .blog-bg p,.footer-top h5, .footer-bottom h5, #top-hero p {
     font-family: 'Tiro Kannada', serif;
 }
-::placeholder, #trending-product h2 {
+#trending-product h2 {
     font-family: 'Satisfy', cursive;
     font-size: 20px;
 }

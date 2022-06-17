@@ -107,18 +107,18 @@ function EveryUI (arr) {
     let blogContainer = '';
             arr.forEach(post => {
                 blogContainer += `
-                    <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-right" data-aos-duration="1600">
+                    <div class="col-lg-4 col-md-6 mb-3">
                         <div class="card h-100">
                             <div class="card-body">
                                 <p class="text-center">${post.id}</p>
                                 <h6 class="blog-post-title">${post.title}</h6>
                                 <p class="blog-post-body">${post.body}</p>
-                                <div class="d-flex justify-content-between">
-                                    <button class="btn btn-nat d-flex align-items-center" id="view-btn"onclick="openBlog(${post.id})">Read More<i class='bx bx-book-open ps-2'></i></button>
-                                    <button class="btn btn-secondary d-flex align-items-center" onclick="updateBlogPost(${post.id})">Update <i class='bx bx-edit ps-2'></i></button>
-                                    <button class="btn btn-danger" onclick="deleteBlogPost(${post.id})"> <i class='bx bx-trash'></i></button>
+                                <div class="d-flex">
+                                    <p class="text-primary me-3" id="view-btn"onclick="openBlog(${post.id})">Read More...</p>
+                                    <p class="d-flex me-4 align-items-center" onclick="updateBlogPost(${post.id})">Update <i class='bx bx-edit ps-2'></i></p>
+                                    <p class="text-danger" onclick="deleteBlogPost(${post.id})"> <i class='bx bx-trash fs-5'></i></p>
                                 </div>
-                                <P class="pt-3 text-muted fst-italic">By Natacha Danbadan.</P>
+                                <P class="pt-1 text-muted fst-italic">By Natacha Danbadan.</P>
                                 <P class="d-flex align-items-center"><i class='bx bx-time-five pe-2'></i>17 hours ago.</P>
                             </div>
                         </div>
