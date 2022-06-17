@@ -73,3 +73,40 @@ a, .btn, #form-stuff h1, #blog-container p, .blog-bg p,.footer-top h5, .footer-b
 .cir{
     font-size:clamp(10px, 1.8vw, 16px) ;
 }
+#back-to-top {
+    display: inline-block;
+    background-color: #222428;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+  
+#back-to-top i {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 40px;
+    color: #f2f2f2;
+}
+  
+#back-to-top:hover {
+    cursor: pointer;
+    background-color: #009607;
+}
+  
+#back-to-top:active {
+    background-color: #009607;
+}
+  
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
